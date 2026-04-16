@@ -1,34 +1,36 @@
-# 02 - Bash Scripting
+# Bash
 
-Automate everything. Bash scripting turns repetitive tasks into one-click solutions.
+This module focuses on shell scripting and command-line automation using Bash.
 
-## What You'll Learn
+It builds on Linux fundamentals and introduces scripting techniques used for automation in DevOps workflows.
 
-- Variables and data types
-- Conditionals (if/else)
-- Loops (for, while)
-- Functions
-- Input/output handling
-- Error handling
-- Script best practices
+---
 
-## Folder Structure
+## Module Structure
 
-```
-02-bash/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+This module is organised into three sections to support both learning and practical application:
 
-## Suggested Projects
+- [Notes](./notes)  
+  Key concepts, syntax, and scripting techniques learned while working with Bash.
 
-- [ ] Build a deployment script
-- [ ] Create a health check script for services
-- [ ] Automate log cleanup with retention policies
-- [ ] Build a CLI menu system
+- [Labs](./labs)  
+  Hands-on challenges and exercises to practice scripting and command-line problem solving.
 
-## Resources
+- [Projects](./projects)  
+  Practical scripts and automation tasks demonstrating real-world use of Bash.
 
-- [Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
-- [ShellCheck](https://www.shellcheck.net/) – Lint your scripts
+---
+
+## Topics Covered
+
+- Variables and data handling
+- Conditional statements and loops
+- File manipulation and processing
+- Argument parsing
+- Automation and scripting logic
+
+---
+
+## Purpose
+
+Bash scripting is essential for automation in DevOps. This module develops the ability to write scripts that streamline tasks and manage systems efficiently.

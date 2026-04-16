@@ -1,68 +1,45 @@
-# 06 - AWS
+# AWS
 
-Amazon Web Services is the most widely used cloud platform. This module covers the essentials.
+This module focuses on cloud computing using Amazon Web Services (AWS), covering core services and real-world cloud architecture.
 
-## What You'll Learn
+It builds on foundational knowledge in networking, Linux, and Docker to deploy and manage applications in the cloud.
 
-- AWS account setup and IAM
-- EC2 (virtual machines)
+---
+
+## Module Structure
+
+This module is organised into three sections to support both learning and practical application:
+
+- [Notes](./notes)  
+  Key concepts and explanations related to AWS services and cloud architecture.
+
+- [Labs](./labs)  
+  Hands-on exercises exploring AWS services and configurations.
+
+- [Projects](./projects)  
+  Practical implementations demonstrating real-world cloud deployments.
+
+---
+
+## Topics Covered
+
+- EC2 (virtual servers)
 - S3 (object storage)
+- IAM (identity and access management)
 - VPC (networking)
-- RDS (managed databases)
-- ECS/EKS (container services)
-- CloudWatch (monitoring)
-- IAM best practices
+- Monitoring and logging (CloudWatch)
+- Security best practices
 
-## Folder Structure
+---
 
-```
-06-aws/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+## Purpose
 
-## Suggested Projects
+AWS is a leading cloud platform used in modern DevOps environments.  
+This module develops the ability to deploy, manage, and secure cloud infrastructure.
 
-- [ ] Deploy an EC2 instance with proper security groups
-- [ ] Host a static website on S3
-- [ ] Set up a VPC with public/private subnets
-- [ ] Deploy an application on ECS Fargate
+---
 
-## Key Services
+## Certifications
 
-| Service | Purpose |
-|---------|---------|
-| EC2 | Virtual machines |
-| S3 | Object storage |
-| VPC | Virtual network |
-| RDS | Managed databases |
-| ECS | Container orchestration |
-| EKS | Managed Kubernetes |
-| Lambda | Serverless functions |
-| CloudWatch | Monitoring and logs |
-| IAM | Identity and access |
-
-## Useful CLI Commands
-
-```bash
-aws sts get-caller-identity     # Check who you're logged in as
-aws ec2 describe-instances      # List EC2 instances
-aws s3 ls                       # List S3 buckets
-aws s3 cp file s3://bucket/     # Upload to S3
-aws logs tail /aws/log-group    # Tail CloudWatch logs
-```
-
-## Cost Warning
-
-AWS charges for resources. Always:
-- Use free tier eligible resources when learning
-- Set up billing alerts
-- Destroy resources when done
-- Check the pricing calculator before creating resources
-
-## Resources
-
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [AWS Free Tier](https://aws.amazon.com/free/)
-- [AWS Pricing Calculator](https://calculator.aws/)
+- AWS Certified Cloud Practitioner (Achieved)  
+- AWS Solutions Architect – Associate (In Progress)

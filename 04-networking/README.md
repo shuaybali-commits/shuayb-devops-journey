@@ -1,58 +1,37 @@
-# 04 - Networking
+# Networking
 
-Understanding networking is crucial for debugging, security, and infrastructure design.
+This module covers the fundamentals of networking, focusing on how systems communicate within and across networks.
 
-## What You'll Learn
+It provides essential knowledge for working with cloud infrastructure, containers, and distributed systems.
 
-- OSI model and TCP/IP
-- IP addressing and subnets (CIDR)
-- DNS and how domain resolution works
-- HTTP/HTTPS and TLS
-- Load balancers and reverse proxies
-- Firewalls and security groups
-- Common ports and protocols
+---
 
-## Folder Structure
+## Module Structure
 
-```
-04-networking/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+This module is organised into three sections to support both learning and practical application:
 
-## Suggested Projects
+- [Notes](./notes)  
+  Key concepts and explanations related to networking fundamentals.
 
-- [ ] Set up a local DNS server
-- [ ] Configure nginx as a reverse proxy
-- [ ] Create a subnet calculator script
-- [ ] Analyse traffic with tcpdump/Wireshark
+- [Labs](./labs)  
+  Hands-on exercises exploring real-world networking scenarios.
 
-## Key Concepts
+- [Projects](./projects)  
+  Practical implementations demonstrating applied networking knowledge.
 
-| Port | Protocol | Use |
-|------|----------|-----|
-| 22 | SSH | Secure shell |
-| 80 | HTTP | Web traffic |
-| 443 | HTTPS | Secure web traffic |
-| 53 | DNS | Domain resolution |
-| 3306 | MySQL | Database |
-| 5432 | PostgreSQL | Database |
-| 6379 | Redis | Cache |
+---
 
-## Useful Commands
+## Topics Covered
 
-```bash
-ping <host>           # Test connectivity
-curl -v <url>         # HTTP request with details
-dig <domain>          # DNS lookup
-nslookup <domain>     # DNS lookup
-netstat -tuln         # Show listening ports
-ss -tuln              # Show listening ports (modern)
-traceroute <host>     # Trace network path
-```
+- IP addressing and DNS
+- HTTP/HTTPS protocols
+- Ports and sockets
+- Client-server communication
+- Reverse proxies and load balancing
+- Basic cloud networking concepts
 
-## Resources
+---
 
-- [Subnet Calculator](https://www.subnet-calculator.com/)
-- [DNS Explained](https://howdns.works/)
+## Purpose
+
+Networking is a core part of DevOps. This module builds the understanding needed to design, troubleshoot, and manage communication between services and systems.

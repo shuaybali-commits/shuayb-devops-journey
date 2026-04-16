@@ -1,96 +1,46 @@
-# 08 - CI/CD
+# CI/CD
 
-Continuous Integration and Continuous Deployment – automate testing and deployment pipelines.
+This module focuses on Continuous Integration and Continuous Deployment (CI/CD), using GitHub Actions to automate testing, building, and deployment workflows.
 
-## What You'll Learn
+It builds on Git and development practices to create automated pipelines for modern applications.
 
-- CI/CD concepts and benefits
-- GitHub Actions workflow syntax
-- Building and testing in pipelines
-- Deploying to various targets
-- Secrets management
-- Pipeline best practices
-- Other CI/CD tools (Jenkins, GitLab CI)
+---
 
-## Folder Structure
+## Module Structure
 
-```
-08-cicd/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+This module is organised into three sections to support both learning and practical application:
 
-## Suggested Projects
+- [Notes](./notes)  
+  Key concepts related to CI/CD pipelines, automation, and workflow design.
 
-- [ ] Create a CI pipeline that runs tests
-- [ ] Build and push Docker images in a pipeline
-- [ ] Deploy to AWS from GitHub Actions
-- [ ] Set up a multi-environment deployment pipeline
+- [Labs](./labs)  
+  Hands-on exercises building and testing GitHub Actions workflows.
 
-## GitHub Actions Basics
+- [Projects](./projects)  
+  Practical implementations of CI/CD pipelines and custom automation tools.
 
-```yaml
-# .github/workflows/ci.yml
-name: CI
+---
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+## Topics Covered
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          
-      - name: Install dependencies
-        run: npm ci
-        
-      - name: Run tests
-        run: npm test
-        
-  build:
-    needs: test
-    runs-on: ubuntu-latest
-    
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Build Docker image
-        run: docker build -t myapp:${{ github.sha }} .
-```
+- GitHub Actions workflows
+- YAML configuration
+- Automated testing pipelines
+- Workflow triggers and events
+- Secrets and environment variables
+- Custom GitHub Actions
 
-## Key Concepts
+---
 
-| Term | Meaning |
-|------|---------|
-| CI | Continuous Integration – automated testing on every commit |
-| CD | Continuous Deployment – automated deployment after tests pass |
-| Pipeline | Series of automated steps |
-| Job | Collection of steps that run on the same runner |
-| Step | Individual task within a job |
-| Artifact | Files produced by a build |
-| Secret | Sensitive data stored securely |
+## Purpose
 
-## Best Practices
+CI/CD is essential in DevOps for automating software delivery.  
+This module develops the ability to build pipelines that improve reliability, speed, and consistency in development workflows.
 
-- Run tests on every PR
-- Use caching for dependencies
-- Store secrets in GitHub Secrets, never in code
-- Use environment-specific deployments
-- Add status badges to your README
-- Keep pipelines fast
+---
 
-## Resources
+## Highlight Work
 
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
-- [Actions Marketplace](https://github.com/marketplace?type=actions)
+- Python testing workflow using GitHub Actions  
+- Manual workflow dispatch  
+- Custom GitHub Action built and packaged using `ncc`

@@ -1,19 +1,22 @@
-# Projects
+# Terraform Projects
 
-Build hands-on projects to reinforce your learning.
+This folder contains practical infrastructure deployments built using Terraform.
 
-## Project Structure
+---
 
-Each project should have:
+## Purpose
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+Projects in this section demonstrate how infrastructure can be defined, provisioned, and managed using code.
 
-## Your Projects
+---
 
-- [ ] Add your first project
+## Examples
 
+- AWS EC2 deployment using Terraform
+- Parameterised infrastructure using variables
+
+---
+
+## Goal
+
+To build scalable, repeatable infrastructure solutions and demonstrate real-world Infrastructure as Code practices.

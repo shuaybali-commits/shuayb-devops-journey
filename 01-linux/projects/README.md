@@ -1,19 +1,23 @@
-# Projects
+# Linux Projects
 
-Build hands-on projects to reinforce your learning.
+This folder contains practical projects and scripts built using Linux tools and commands.
 
-## Project Structure
+---
 
-Each project should have:
+## Purpose
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+Projects in this section demonstrate the application of Linux knowledge in real-world scenarios, including automation, scripting, and system management.
 
-## Your Projects
+---
 
-- [ ] Add your first project
+## Examples (Planned)
 
+- Backup scripts
+- Log monitoring tools
+- File automation scripts
+
+---
+
+## Goal
+
+To move beyond basic commands and apply Linux skills to solve real problems and automate tasks.

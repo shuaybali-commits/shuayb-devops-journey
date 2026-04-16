@@ -1,36 +1,17 @@
-# Labs
+# Git Labs
 
-Document your completed labs here.
+This folder contains hands-on exercises focused on using Git in real scenarios.
 
-## Template
+---
 
-When documenting a lab, include:
+## Contents
 
-```markdown
-# Lab: [Lab Name]
+- Repository setup and management
+- Branching and merging exercises
+- Conflict resolution practice
 
-## Objective
+---
 
-What was the goal?
+## Purpose
 
-## Commands Used
-
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+These labs help reinforce Git fundamentals by applying concepts in practical situations, improving confidence in version control workflows.

@@ -1,113 +1,90 @@
-# DevOps Learning Journey
+# DevOps Learning Journey 🚀
 
-Your personal repository for tracking progress through the CoderCo DevOps curriculum.
+This repository documents my journey into DevOps through hands-on labs, real-world projects, and structured learning across core technologies.
 
-## Quick Start
-
-1. Click **"Use this template"** then **"Create a new repository"**
-2. Clone your new repo locally
-3. Start learning and commit your progress
-
-![UseTemplate](./images/UseTemplate.png)
-
-![CreateRepo](./images/Createrepo.png)
-
-## Repository Structure
-
-```
-devops-learning/
-├── 01-linux/           # Linux Fundamentals
-├── 02-bash/            # Bash Scripting
-├── 03-git/             # Version Control
-├── 04-networking/      # How the Internet Works
-├── 05-docker/          # Containers
-├── 06-aws/             # Cloud (AWS)
-├── 07-terraform/       # Infrastructure as Code
-├── 08-cicd/            # CI/CD Pipelines
-├── 09-kubernetes/      # Container Orchestration
-└── challenges/         # Extra Challenges
-```
-
-Each module contains:
-- **notes/** – Your personal notes and summaries
-- **labs/** – Completed lab exercises
-- **projects/** – Hands-on projects
-
-## Progress Tracker
-
-| Module | Status | Notes | Labs | Projects |
-|--------|--------|-------|------|----------|
-| 01 - Linux | Not Started | 0/0 | 0/0 | 0/0 |
-| 02 - Bash | Not Started | 0/0 | 0/0 | 0/0 |
-| 03 - Git | Not Started | 0/0 | 0/0 | 0/0 |
-| 04 - Networking | Not Started | 0/0 | 0/0 | 0/0 |
-| 05 - Docker | Not Started | 0/0 | 0/0 | 0/0 |
-| 06 - AWS | Not Started | 0/0 | 0/0 | 0/0 |
-| 07 - Terraform | Not Started | 0/0 | 0/0 | 0/0 |
-| 08 - CI/CD | Not Started | 0/0 | 0/0 | 0/0 |
-| 09 - Kubernetes | Not Started | 0/0 | 0/0 | 0/0 |
-
-Update this table as you progress.
-
-## How to Use This Repo
-
-### Taking Notes
-
-After each lesson, create a note:
-
-```bash
-touch 01-linux/notes/file-permissions.md
-```
-
-Write in your own words – this helps you remember.
-
-### Completing Labs
-
-Document what you did and what you learned:
-
-```bash
-touch 01-linux/labs/lab01-basic-commands.md
-```
-
-Include commands, outputs, and any errors you hit.
-
-### Building Projects
-
-Create a folder with your code and a README:
-
-```
-01-linux/projects/backup-script/
-├── backup.sh
-└── README.md
-```
-
-## Best Practices
-
-**Commit often** – After each lesson, lab, or meaningful progress.
-
-**Write good commit messages:**
-
-```bash
-# Bad
-git commit -m "updates"
-
-# Good
-git commit -m "Add notes on Linux file permissions"
-```
-
-**Stay organised** – Put files in the right folders.
-
-**Share your progress** – Post on LinkedIn, tag @CoderCo!
-
-## Useful Links
-
-- [CoderCo Community](https://www.skool.com/coderco)
-- [CoderCo Dotfiles](https://github.com/coderco-learning/dotfiles)
-
-## License
-
-MIT – Use this template however you like.
+I’m actively building skills in cloud, infrastructure as code, automation, and CI/CD, with a strong focus on practical implementation.
 
 ---
 
-Questions? Ask in the CoderCo community.
+## 📚 Technologies Covered
+
+- Linux  
+- Bash  
+- Git  
+- Networking  
+- Docker  
+- AWS  
+- Terraform  
+- CI/CD (GitHub Actions)  
+- Kubernetes  
+
+---
+
+## 📂 Repository Structure
+
+Each module is organised into three key areas:
+
+- **notes/** → Core concepts and explanations  
+- **labs/** → Hands-on exercises and practice  
+- **projects/** → Real-world implementations  
+
+### Modules
+
+- [Linux](./01-linux)
+- [Bash](./02-bash)
+- [Git](./03-git)
+- [Networking](./04-networking)
+- [Docker](./05-docker)
+- [AWS](./06-aws)
+- [Terraform](./07-terraform)
+- [CI/CD](./08-cicd)
+- [Kubernetes](./09-kubernetes)
+
+---
+
+## 🚀 Highlight Projects
+
+### 🐳 Docker – Flask + Redis + NGINX
+- Built a multi-container application using Docker Compose  
+- Implemented reverse proxy with NGINX  
+- Demonstrated container networking and service communication  
+
+---
+
+### ⚙️ CI/CD – Custom GitHub Action
+- Developed a reusable GitHub Action using JavaScript  
+- Packaged with `@vercel/ncc`  
+- Integrated into workflows for automation and reusability  
+
+---
+
+### ☁️ Terraform – AWS EC2 Infrastructure
+- Provisioned cloud infrastructure using Terraform  
+- Applied Infrastructure as Code principles  
+- Managed resources declaratively  
+
+---
+
+## 🎯 Purpose
+
+This repository is designed to:
+
+- Build practical, job-ready DevOps skills  
+- Track and document my learning journey  
+- Showcase hands-on experience to employers  
+
+---
+
+## 🔄 Ongoing Work
+
+This repository is continuously evolving as I:
+
+- Deepen my knowledge of cloud and DevOps tools  
+- Build more advanced projects  
+- Explore real-world scenarios and best practices  
+
+---
+
+## 📌 About Me
+
+I’m an AWS Certified Cloud Practitioner currently developing my skills in Cloud and DevOps, with a strong interest in automation, infrastructure, and scalable systems.

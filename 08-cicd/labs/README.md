@@ -1,36 +1,20 @@
-# Labs
+# CI/CD Labs
 
-Document your completed labs here.
+This folder contains hands-on exercises focused on building CI/CD pipelines using GitHub Actions.
 
-## Template
+---
 
-When documenting a lab, include:
+## Contents
 
-```markdown
-# Lab: [Lab Name]
+- Basic workflow configuration
+- Python testing pipelines
+- Manual workflow triggers
+- Secrets management
 
-## Objective
+---
 
-What was the goal?
+## Purpose
 
-## Commands Used
+These labs focus on understanding how to automate development workflows by building and testing CI/CD pipelines.
 
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+They reinforce concepts through practical implementation using GitHub Actions.

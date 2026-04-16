@@ -1,47 +1,36 @@
-# 03 - Git
+# Git
 
-Version control is a non-negotiable skill. Every company uses Git.
+This module covers version control using Git, focusing on tracking changes, collaboration, and managing code history.
 
-## What You'll Learn
+Git is a fundamental tool in modern software development and DevOps workflows.
 
-- Repository basics (init, clone)
-- Staging and committing
+---
+
+## Module Structure
+
+This module is organised into three sections to support both learning and practical application:
+
+- [Notes](./notes)  
+  Key concepts, commands, and workflows related to Git.
+
+- [Labs](./labs)  
+  Hands-on exercises to practice version control and collaboration scenarios.
+
+- [Projects](./projects)  
+  Practical use of Git within real-world projects and repositories.
+
+---
+
+## Topics Covered
+
+- Repository setup and configuration
+- Staging, committing, and pushing changes
 - Branching and merging
-- Handling merge conflicts
-- Working with remotes
-- Git workflows (GitFlow, trunk-based)
-- Collaboration with PRs
+- Resolving conflicts
+- Working with remote repositories (GitHub)
 
-## Folder Structure
+---
 
-```
-03-git/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+## Purpose
 
-## Suggested Projects
-
-- [ ] Create a repo with a proper branching strategy
-- [ ] Simulate and resolve merge conflicts
-- [ ] Set up branch protection rules
-- [ ] Create a PR template
-
-## Key Commands
-
-```bash
-git status          # Check current state
-git add .           # Stage changes
-git commit -m ""    # Commit with message
-git push            # Push to remote
-git pull            # Pull from remote
-git branch          # List branches
-git checkout -b     # Create and switch branch
-git merge           # Merge branches
-```
-
-## Resources
-
-- [Git Documentation](https://git-scm.com/doc)
-- [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+Git enables efficient collaboration and version control. This module builds the skills needed to manage codebases confidently and work in team environments.

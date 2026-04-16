@@ -1,36 +1,19 @@
-# Labs
+# Docker Labs
 
-Document your completed labs here.
+This folder contains hands-on exercises focused on learning Docker fundamentals.
 
-## Template
+---
 
-When documenting a lab, include:
+## Contents
 
-```markdown
-# Lab: [Lab Name]
+- Running containers
+- Building images with Dockerfiles
+- Working with volumes and networks
 
-## Objective
+---
 
-What was the goal?
+## Purpose
 
-## Commands Used
+These labs are designed to build confidence in using Docker by practicing core commands and workflows.
 
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+They focus on understanding how containers behave and interact.

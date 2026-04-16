@@ -1,36 +1,19 @@
-# Labs
+# Bash Labs
 
-Document your completed labs here.
+This folder contains hands-on Bash challenges and exercises.
 
-## Template
+---
 
-When documenting a lab, include:
+## Contents
 
-```markdown
-# Lab: [Lab Name]
+- Command-line challenges
+- Scripting exercises
+- Problem-solving tasks
 
-## Objective
+---
 
-What was the goal?
+## Purpose
 
-## Commands Used
+These labs are designed to reinforce Bash fundamentals and improve confidence in writing and understanding scripts.
 
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+They focus on applying concepts through practical tasks rather than theory alone.

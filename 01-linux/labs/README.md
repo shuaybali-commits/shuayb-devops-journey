@@ -1,36 +1,18 @@
-# Labs
+# Linux Labs
 
-Document your completed labs here.
+This section contains hands-on Linux practice labs.
 
-## Template
+## Included
 
-When documenting a lab, include:
+### OverTheWire Bandit
+A structured wargame focused on Linux fundamentals and security concepts.
 
-```markdown
-# Lab: [Lab Name]
+### Sad Servers
+Real-world troubleshooting scenarios simulating broken Linux systems.
 
-## Objective
+## Skills Practiced
 
-What was the goal?
-
-## Commands Used
-
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+- Command line navigation
+- File permissions and ownership
+- Debugging and troubleshooting
+- Working with logs and processes

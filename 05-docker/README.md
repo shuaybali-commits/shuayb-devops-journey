@@ -1,69 +1,45 @@
-# 05 - Docker
+# Docker
 
-Containers changed everything. Docker packages and runs applications consistently.
+This module focuses on containerisation using Docker, covering how to build, run, and manage containerised applications.
 
-## What You'll Learn
+It includes working with single-container setups as well as multi-container architectures using Docker Compose.
 
-- Container vs VM concepts
-- Images and containers
-- Dockerfile syntax
-- Building images
-- Docker Compose for multi-container apps
-- Volumes and networking
-- Best practices for production images
+---
 
-## Folder Structure
+## Module Structure
 
-```
-05-docker/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
+This module is organised into three sections to support both learning and practical application:
 
-## Suggested Projects
+- [Notes](./notes)  
+  Key concepts related to Docker, containerisation, and image management.
 
-- [ ] Containerise a web application
-- [ ] Create a multi-container app with Docker Compose
-- [ ] Build a minimal production image (multi-stage build)
-- [ ] Set up a local development environment with Docker
+- [Labs](./labs)  
+  Hands-on exercises exploring Docker commands, images, and container workflows.
 
-## Key Commands
+- [Projects](./projects)  
+  Real-world containerised applications demonstrating multi-service architectures.
 
-```bash
-docker build -t name .      # Build image
-docker run -d -p 80:80 img  # Run container
-docker ps                   # List running containers
-docker logs <container>     # View logs
-docker exec -it <c> sh      # Shell into container
-docker-compose up -d        # Start compose stack
-docker-compose down         # Stop compose stack
-```
+---
 
-## Dockerfile Best Practices
+## Topics Covered
 
-```dockerfile
-# Use specific tags, not :latest
-FROM node:20-alpine
+- Docker images and containers
+- Dockerfiles and image building
+- Container networking
+- Docker Compose
+- Volumes and persistent storage
+- Multi-container applications
 
-# Set working directory
-WORKDIR /app
+---
 
-# Copy package files first (layer caching)
-COPY package*.json ./
-RUN npm ci --only=production
+## Purpose
 
-# Copy source code
-COPY . .
+Docker is a core DevOps tool used to package and deploy applications consistently.  
+This module develops the ability to build, run, and scale containerised applications.
 
-# Run as non-root user
-USER node
+---
 
-# Define entrypoint
-CMD ["node", "server.js"]
-```
+## Highlight Projects
 
-## Resources
-
-- [Docker Documentation](https://docs.docker.com/)
-- [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
+- Flask application containerisation
+- Multi-container Flask + Redis + NGINX architecture

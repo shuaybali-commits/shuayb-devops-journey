@@ -1,124 +1,43 @@
-# 09 - Kubernetes
+# Kubernetes
 
-Container orchestration at scale. Kubernetes runs your containers in production with high availability.
+This module focuses on container orchestration using Kubernetes, covering how to deploy, manage, and scale containerised applications.
 
-## What You'll Learn
+It builds on Docker knowledge to handle production-grade workloads in distributed environments.
 
-- Kubernetes architecture
-- Pods, Deployments, Services
-- ConfigMaps and Secrets
-- Ingress and networking
-- Persistent storage
-- Helm charts
-- Monitoring and debugging
-- Production best practices
-
-## Folder Structure
-
-```
-09-kubernetes/
-├── notes/       # Your notes from lessons
-├── labs/        # Completed lab exercises
-└── projects/    # Hands-on projects
-```
-
-## Suggested Projects
-
-- [ ] Deploy a multi-tier application
-- [ ] Set up Ingress with TLS
-- [ ] Create a Helm chart for your app
-- [ ] Implement horizontal pod autoscaling
-- [ ] Set up monitoring with Prometheus/Grafana
-
-## Key Resources
-
-| Resource | Purpose |
-|----------|---------|
-| Pod | Smallest deployable unit |
-| Deployment | Manages pod replicas |
-| Service | Exposes pods internally |
-| Ingress | Exposes services externally |
-| ConfigMap | Non-sensitive configuration |
-| Secret | Sensitive data |
-| PersistentVolume | Storage |
-| Namespace | Resource isolation |
-
-## Essential Commands
-
-```bash
-# Get resources
-kubectl get pods
-kubectl get svc
-kubectl get deployments
-kubectl get all
-
-# Describe resources
-kubectl describe pod <name>
-kubectl describe svc <name>
-
-# Logs
-kubectl logs <pod>
-kubectl logs -f <pod>
-
-# Exec into pod
-kubectl exec -it <pod> -- /bin/sh
-
-# Apply manifests
-kubectl apply -f manifest.yaml
-kubectl delete -f manifest.yaml
-
-# Context
-kubectl config get-contexts
-kubectl config use-context <name>
-```
-
-## Basic Deployment
-
-```yaml
-# deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: web
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: web
-  template:
-    metadata:
-      labels:
-        app: web
-    spec:
-      containers:
-        - name: web
-          image: nginx:1.25
-          ports:
-            - containerPort: 80
 ---
-apiVersion: v1
-kind: Service
-metadata:
-  name: web
-spec:
-  selector:
-    app: web
-  ports:
-    - port: 80
-      targetPort: 80
-  type: ClusterIP
-```
 
-## Local Development
+## Module Structure
 
-For learning, use one of these to run Kubernetes locally:
+This module is organised into three sections to support both learning and practical application:
 
-- **Kind** – Kubernetes in Docker (recommended)
-- **Minikube** – Local VM-based cluster
-- **Docker Desktop** – Built-in Kubernetes
+- [Notes](./notes)  
+  Key concepts related to Kubernetes architecture and components.
 
-## Resources
+- [Labs](./labs)  
+  Hands-on exercises deploying and managing applications in Kubernetes.
 
-- [Kubernetes Documentation](https://kubernetes.io/docs/)
-- [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-- [Helm Documentation](https://helm.sh/docs/)
+- [Projects](./projects)  
+  Practical implementations demonstrating container orchestration and scaling.
+
+---
+
+## Topics Covered
+
+- Kubernetes architecture (nodes, pods, clusters)
+- Deployments and services
+- Scaling and load balancing
+- Configuration and secrets
+- Container orchestration concepts
+
+---
+
+## Purpose
+
+Kubernetes is a core DevOps tool used to manage containerised applications at scale.  
+This module develops the ability to deploy, manage, and scale applications in a production-like environment.
+
+---
+
+## Status
+
+This module is currently in progress and will be expanded with labs and projects as learning progresses.

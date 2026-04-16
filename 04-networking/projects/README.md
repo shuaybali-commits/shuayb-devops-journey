@@ -1,19 +1,23 @@
-# Projects
+# Networking Projects
 
-Build hands-on projects to reinforce your learning.
+This folder contains practical implementations demonstrating networking concepts.
 
-## Project Structure
+---
 
-Each project should have:
+## Purpose
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+Projects in this section showcase how networking is applied in real-world scenarios, including web hosting, routing, and service communication.
 
-## Your Projects
+---
 
-- [ ] Add your first project
+## Examples (Planned)
 
+- NGINX reverse proxy setup
+- Basic web server deployment
+- Networking configurations in container environments
+
+---
+
+## Goal
+
+To develop the ability to design and troubleshoot networked systems in modern application environments.

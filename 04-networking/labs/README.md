@@ -1,36 +1,19 @@
-# Labs
+# Networking Labs
 
-Document your completed labs here.
+This folder contains hands-on networking exercises and scenarios.
 
-## Template
+---
 
-When documenting a lab, include:
+## Contents
 
-```markdown
-# Lab: [Lab Name]
+- DNS and routing experiments
+- Web server and HTTP testing
+- Reverse proxy and NGINX configuration
 
-## Objective
+---
 
-What was the goal?
+## Purpose
 
-## Commands Used
+These labs focus on understanding how systems communicate by exploring real-world networking setups and troubleshooting scenarios.
 
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+They help build confidence in diagnosing and resolving connectivity issues.

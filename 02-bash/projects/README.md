@@ -1,19 +1,23 @@
-# Projects
+# Bash Projects
 
-Build hands-on projects to reinforce your learning.
+This folder contains practical Bash scripts and automation projects.
 
-## Project Structure
+---
 
-Each project should have:
+## Purpose
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+Projects in this section demonstrate how Bash can be used to automate repetitive tasks and solve real-world problems.
 
-## Your Projects
+---
 
-- [ ] Add your first project
+## Examples (Planned)
 
+- File organisation scripts
+- Log analysis tools
+- Monitoring scripts
+
+---
+
+## Goal
+
+To develop the ability to write efficient, reusable scripts that improve productivity and system management.

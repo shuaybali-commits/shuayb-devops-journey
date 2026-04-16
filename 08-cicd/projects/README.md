@@ -1,19 +1,22 @@
-# Projects
+# CI/CD Projects
 
-Build hands-on projects to reinforce your learning.
+This folder contains practical CI/CD implementations and automation projects.
 
-## Project Structure
+---
 
-Each project should have:
+## Purpose
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+Projects in this section demonstrate how CI/CD pipelines are built and used to automate testing and development workflows.
 
-## Your Projects
+---
 
-- [ ] Add your first project
+## Projects Included
 
+- **coderco-custom-action**  
+  A custom GitHub Action built using JavaScript and packaged with `ncc`, designed to be reused in workflows.
+
+---
+
+## Goal
+
+To develop the ability to design and implement automated pipelines that improve development efficiency and reliability.

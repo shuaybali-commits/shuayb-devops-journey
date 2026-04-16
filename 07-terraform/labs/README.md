@@ -1,36 +1,17 @@
-# Labs
+# Terraform Labs
 
-Document your completed labs here.
+This folder contains hands-on exercises using Terraform to provision infrastructure.
 
-## Template
+---
 
-When documenting a lab, include:
+## Contents
 
-```markdown
-# Lab: [Lab Name]
+- AWS EC2 provisioning
+- Provider configuration
+- Variables and reusable code
 
-## Objective
+---
 
-What was the goal?
+## Purpose
 
-## Commands Used
-
-(the commands you ran)
-
-## Output
-
-(what happened)
-
-## Challenges
-
-Any issues you hit and how you solved them.
-
-## What I Learned
-
-Key takeaways from this lab.
-```
-
-## Completed Labs
-
-- [ ] Add your first lab
-
+These labs focus on learning Terraform by building infrastructure step-by-step, reinforcing core IaC concepts through practical use.

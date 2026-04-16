@@ -1,19 +1,28 @@
-# Projects
+# Docker Projects
 
-Build hands-on projects to reinforce your learning.
+This folder contains practical containerised applications built using Docker.
 
-## Project Structure
+---
 
-Each project should have:
+## Purpose
 
-```
-project-name/
-├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
-└── examples/       # Example outputs (optional)
-```
+Projects in this section demonstrate real-world use of Docker, including multi-container setups, service communication, and scalable application design.
 
-## Your Projects
+---
 
-- [ ] Add your first project
+## Projects Included
 
+- **hello-flask**  
+  A simple Flask application containerised using a custom Dockerfile.
+
+- **flask-redis-nginx**  
+  A multi-container application using Docker Compose with:
+  - Flask (application)
+  - Redis (data store)
+  - NGINX (reverse proxy and load balancer)
+
+---
+
+## Goal
+
+To build production-style containerised applications and understand how services interact within a container environment.
