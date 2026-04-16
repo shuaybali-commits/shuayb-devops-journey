@@ -45,23 +45,26 @@ Each module is organised into three key areas:
 ## 🚀 Highlight Projects
 
 ### 🐳 Docker – Flask + Redis + NGINX
-- Built a multi-container application using Docker Compose  
-- Implemented reverse proxy with NGINX  
-- Demonstrated container networking and service communication  
+- Designed and deployed a multi-container application using Docker Compose  
+- Implemented NGINX as a reverse proxy and load balancer  
+- Integrated Redis for state management (visit counter)  
+- Demonstrated horizontal scaling of application containers  
 
 ---
 
 ### ⚙️ CI/CD – Custom GitHub Action
-- Developed a reusable GitHub Action using JavaScript  
-- Packaged with `@vercel/ncc`  
-- Integrated into workflows for automation and reusability  
+- Built a reusable GitHub Action using JavaScript  
+- Packaged using `ncc` for production-ready distribution  
+- Integrated into workflows to automate CI/CD tasks  
+- Demonstrates understanding of workflow automation and extensibility  
 
 ---
 
-### ☁️ Terraform – AWS EC2 Infrastructure
-- Provisioned cloud infrastructure using Terraform  
-- Applied Infrastructure as Code principles  
-- Managed resources declaratively  
+### 🏗️ Terraform – AWS EC2 Infrastructure
+- Provisioned AWS infrastructure using Infrastructure as Code (IaC)  
+- Used Terraform to define and manage EC2 resources  
+- Applied variables and modular structure for scalability  
+- Demonstrates reproducible and automated infrastructure deployment  
 
 ---
 
