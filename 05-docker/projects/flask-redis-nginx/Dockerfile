@@ -1,14 +1,31 @@
-#Challenge-Dockerfile
-
-#Build and Run a Flask App with Redis
+# Base image
 FROM python:3.12-slim
 
-WORKDIR /flask-app
+# Image metadata
+LABEL maintainer="Shuayb Ali"
+LABEL project="Flask Redis NGINX"
+LABEL description="Multi-service Docker Compose project with Flask, Redis and NGINX"
+LABEL version="1.0.0"
 
-COPY . .
+# Working directory
+WORKDIR /app
 
-RUN pip install --no-cache-dir flask redis
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 5003
+# Copy application
+COPY app.py .
 
-CMD ["python", "flask-app.py"]
+# Run as non-root user
+RUN useradd --create-home appuser
+USER appuser
+
+# Default environment variable
+ENV PORT=5000
+
+# Application port
+EXPOSE 5000
+
+# Start application
+CMD ["python", "app.py"]
