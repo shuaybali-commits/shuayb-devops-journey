@@ -1,45 +1,50 @@
 # Docker
 
-This module focuses on containerisation using Docker, covering how to build, run, and manage containerised applications.
-
-It includes working with single-container setups as well as multi-container architectures using Docker Compose.
+This module covers the fundamentals of containerisation using Docker, progressing from single-container applications to multi-service architectures using Docker Compose.
 
 ---
 
 ## Module Structure
 
-This module is organised into three sections to support both learning and practical application:
+- **Notes**
+  Core Docker concepts, commands and best practices.
 
-- [Notes](./notes)  
-  Key concepts related to Docker, containerisation, and image management.
+- **Labs**
+  Practical exercises exploring images, containers, networking and volumes.
 
-- [Labs](./labs)  
-  Hands-on exercises exploring Docker commands, images, and container workflows.
-
-- [Projects](./projects)  
-  Real-world containerised applications demonstrating multi-service architectures.
+- **Projects**
+  Production-style containerised applications demonstrating progressively more advanced Docker concepts.
 
 ---
 
 ## Topics Covered
 
-- Docker images and containers
-- Dockerfiles and image building
-- Container networking
+- Docker Images & Containers
+- Dockerfiles
 - Docker Compose
-- Volumes and persistent storage
-- Multi-container applications
+- Container Networking
+- Docker Volumes
+- Environment Variables
+- Health Checks
+- Multi-container Applications
+- Reverse Proxy (NGINX)
+
+---
+
+## Projects
+
+- **Hello Flask**
+  Containerising a Python Flask application.
+
+- **Flask + MySQL**
+  A multi-container application demonstrating service communication and persistent database storage.
+
+- **Flask + Redis + NGINX**
+  A multi-service application using Redis for data storage and NGINX as a reverse proxy.
 
 ---
 
 ## Purpose
 
-Docker is a core DevOps tool used to package and deploy applications consistently.  
-This module develops the ability to build, run, and scale containerised applications.
+Develop practical experience building, managing and orchestrating containerised applications using Docker and Docker Compose.
 
----
-
-## Highlight Projects
-
-- Flask application containerisation
-- Multi-container Flask + Redis + NGINX architecture
