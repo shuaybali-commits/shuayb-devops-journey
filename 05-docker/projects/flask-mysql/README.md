@@ -1,32 +1,88 @@
-# Hello Flask (Docker)
+# Flask + MySQL
 
-## 📌 Overview
+## Overview
 
-This project is a simple Flask application containerised using Docker.
-
-It demonstrates how to package a Python web application into a container and run it in a consistent environment.
+A multi-container application demonstrating communication between a Flask web application and a MySQL database using Docker Compose.
 
 ---
 
-## 🏗️ Architecture
+## Objectives
 
-Client (Browser)  
-→ Flask Application (Docker Container)  
-
----
-
-## 🚀 Features
-
-- Python Flask application  
-- Custom Dockerfile  
-- Containerised execution  
-- Port exposure for web access  
+- Build a multi-container application
+- Connect Flask to MySQL
+- Use Docker networking and volumes
+- Apply Docker best practices
 
 ---
 
-## ▶️ How to Run
+## Architecture
 
-1. Build the Docker image:
+```text
+Browser
+    │
+    ▼
+Flask Container
+    │
+    ▼
+MySQL Container
+```
+
+---
+
+## Technologies Used
+
+- Docker
+- Docker Compose
+- Python
+- Flask
+- MySQL
+
+---
+
+## Project Structure
+
+```text
+flask-mysql/
+├── app.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── screenshots/
+```
+
+---
+
+## Docker Concepts Demonstrated
+
+- Multi-container Applications
+- Docker Networks
+- Docker Volumes
+- Service Discovery
+- Environment Variables
+- Health Checks
+- Restart Policies
+- Non-root Containers
+
+---
+
+## Build & Run
 
 ```bash
-docker build -t hello-flask .
+docker compose up -d
+```
+
+Open:
+
+```text
+http://localhost:5002
+```
+
+---
+
+## Screenshots
+
+- Homepage
+- Docker Compose
+- Running Containers
+- Docker Volume
+
