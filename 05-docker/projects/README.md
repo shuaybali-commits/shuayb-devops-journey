@@ -1,28 +1,50 @@
 # Docker Projects
 
-This folder contains practical containerised applications built using Docker.
+This directory contains practical Docker projects that demonstrate progressively more advanced containerisation techniques and multi-service application architectures.
+
+---
+
+## Project Overview
+
+![Docker Projects Overview](./docker-projects-overview.png)
+
+---
+
+## Projects
+
+### hello-flask
+
+A single-container Flask application introducing Docker fundamentals, image creation and container management.
+
+---
+
+### flask-mysql
+
+A multi-container application demonstrating communication between a Flask application and a MySQL database using Docker Compose.
+
+---
+
+### flask-redis-nginx
+
+A multi-service application using Flask, Redis and NGINX to demonstrate service communication, reverse proxying and container orchestration.
+
+---
+
+## Concepts Demonstrated
+
+- Docker Images & Containers
+- Dockerfiles
+- Docker Compose
+- Container Networking
+- Docker Volumes
+- Environment Variables
+- Health Checks
+- Multi-container Applications
+- Reverse Proxy with NGINX
 
 ---
 
 ## Purpose
 
-Projects in this section demonstrate real-world use of Docker, including multi-container setups, service communication, and scalable application design.
+Apply Docker concepts by building applications that demonstrate containerisation, service communication and modern application architecture.
 
----
-
-## Projects Included
-
-- **hello-flask**  
-  A simple Flask application containerised using a custom Dockerfile.
-
-- **flask-redis-nginx**  
-  A multi-container application using Docker Compose with:
-  - Flask (application)
-  - Redis (data store)
-  - NGINX (reverse proxy and load balancer)
-
----
-
-## Goal
-
-To build production-style containerised applications and understand how services interact within a container environment.
