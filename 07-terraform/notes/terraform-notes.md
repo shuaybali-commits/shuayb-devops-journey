@@ -1,6 +1,7 @@
 # Terraform Basics
 
 ## Overview
+
 Terraform is a tool used to provision and manage infrastructure using code.
 
 ---
@@ -46,7 +47,9 @@ Terraform is a tool used to provision and manage infrastructure using code.
 - Stores information about infrastructure  
 
 Types:
-- **Local state** → stored on local machine  
+
+- **Local state** → stored on local machine
+
 - **Remote state** → stored remotely (e.g. S3)  
 
 ---
@@ -78,6 +81,7 @@ Types:
 - Defines infrastructure components  
 
 Example:
+
 - resource = type + name + configuration  
 
 ---
