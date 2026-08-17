@@ -1,0 +1,8 @@
+output "launch_template_id" {
+  value = aws_launch_template.app.id
+}
+
+output "bastion_public_ip" {
+  value = aws_instance.bastion.public_ip
+}
+
