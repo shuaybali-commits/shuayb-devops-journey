@@ -1,0 +1,40 @@
+services:
+  web:
+    build: .
+    image: flask-redis-nginx:v1
+    container_name: flask-redis-web
+    restart: unless-stopped
+    ports:
+      - "5003:5000"
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  redis:
+    image: redis:7
+    container_name: flask-redis-db
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  nginx:
+    image: nginx:1.28
+    container_name: flask-redis-nginx
+    restart: unless-stopped
+    ports:
+      - "5003:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - web
+
+volumes:
+  redis-data:
+
