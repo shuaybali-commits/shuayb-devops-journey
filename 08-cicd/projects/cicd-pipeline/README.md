@@ -4,6 +4,14 @@ A simple CI/CD pipeline built using GitHub Actions to automatically validate, bu
 
 ---
 
+## Overview
+
+This project demonstrates a complete CI/CD pipeline using GitHub Actions.
+
+The pipeline automatically validates a Flask application, builds a Docker image and publishes it to Docker Hub whenever changes are pushed to the repository.
+
+---
+
 ## Technologies
 
 - Git
@@ -52,16 +60,19 @@ It:
 
 ## Project Structure
 
-CICD-pipeline/
-├── .github/workflows
-│   ├── ci.yml
-│   └── cd.yml
+```text
+cicd-pipeline/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml
+│       └── cd.yml
 ├── app.py
 ├── Dockerfile
 ├── requirements.txt
 ├── architecture/
 ├── screenshots/
 └── README.md
+```
 
 ---
 
@@ -75,3 +86,14 @@ CICD-pipeline/
 - Docker Hub
 - GitHub Secrets
 - Python
+
+---
+
+## Deployment
+
+The pipeline is triggered automatically:
+
+- **CI** runs on every push and pull request.
+- **CD** runs on pushes to the `main` branch after a successful build.
+
+The published Docker image is available on Docker Hub.

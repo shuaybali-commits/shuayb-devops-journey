@@ -1,6 +1,11 @@
 # Docker Basics
 
+## Purpose
+
+These notes provide a quick reference to the Docker concepts, commands and workflows used throughout the DevOps learning journey.
+
 ## Overview
+
 Docker is a platform used to build, run, and manage containerised applications.
 
 ---
@@ -9,8 +14,6 @@ Docker is a platform used to build, run, and manage containerised applications.
 
 - Lightweight, portable environments that run applications  
 - Include everything needed (code, dependencies, runtime)  
-
-### Benefits
 
 - Consistent across environments  
 - Fast startup time  
@@ -30,8 +33,10 @@ Docker is a platform used to build, run, and manage containerised applications.
 
 ## Docker Components
 
-- **Docker Engine** → runs and manages containers  
-- **Docker Hub** → registry for storing and sharing images  
+- **Docker Engine** → builds and runs containers
+- **Docker Images** → templates used to create containers
+- **Docker Containers** → running instances of images
+- **Docker Hub** → registry for storing and sharing images
 
 ---
 
@@ -112,8 +117,6 @@ Used to define and run multi-container applications.
 ## Docker Registries
 
 - Store and distribute Docker images  
-
-### Benefits
 
 - Version control for images  
 - Easy sharing and deployment  

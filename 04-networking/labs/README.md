@@ -4,7 +4,7 @@ This folder contains hands-on networking exercises and scenarios.
 
 ---
 
-## Contents
+## Included
 
 - DNS and routing experiments
 - Web server and HTTP testing

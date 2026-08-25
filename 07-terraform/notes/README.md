@@ -1,5 +1,9 @@
 # Terraform Basics
 
+## Purpose
+
+These notes provide a quick reference to the core Terraform concepts, workflows and Infrastructure as Code principles used throughout the DevOps learning journey.
+
 ## Overview
 
 Terraform is a tool used to provision and manage infrastructure using code.
@@ -10,8 +14,6 @@ Terraform is a tool used to provision and manage infrastructure using code.
 
 - Managing infrastructure through code instead of manual setup  
 
-### Benefits
-
 - Automation  
 - Consistency  
 - Reusability  
@@ -19,12 +21,10 @@ Terraform is a tool used to provision and manage infrastructure using code.
 
 ---
 
-## Terraform
+## Terraform Fundamentals
 
 - Used to define and provision infrastructure  
 - Works across multiple cloud providers  
-
-### Benefits
 
 - Repeatable deployments  
 - Scalable infrastructure  
@@ -90,8 +90,6 @@ Example:
 
 - Reusable blocks of Terraform configuration  
 - Used to organise and simplify infrastructure  
-
-### Benefits
 
 - Reusability  
 - Cleaner code  

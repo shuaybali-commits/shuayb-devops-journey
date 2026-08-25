@@ -1,17 +1,22 @@
 # Flask + MySQL
 
+## Purpose
+
+Demonstrate how Docker Compose enables multiple services to communicate, persist data and work together as a single application.
+
 ## Overview
 
 A multi-container application demonstrating communication between a Flask web application and a MySQL database using Docker Compose.
 
 ---
 
-## Objectives
+## Features
 
-- Build a multi-container application
-- Connect Flask to MySQL
-- Use Docker networking and volumes
-- Apply Docker best practices
+- Multi-container application
+- Communication between Flask and MySQL
+- Docker networking
+- Persistent database storage using Docker volumes
+- Docker Compose orchestration
 
 ---
 
@@ -76,13 +81,3 @@ Open:
 ```text
 http://localhost:5002
 ```
-
----
-
-## Screenshots
-
-- Homepage
-- Docker Compose
-- Running Containers
-- Docker Volume
-

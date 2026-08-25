@@ -1,6 +1,11 @@
 # Git Basics
 
+## Purpose
+
+These notes provide a quick reference to Git concepts, commands and workflows used throughout the DevOps learning journey.
+
 ## Overview
+
 Git is a version control system used to track changes in code and enable collaboration.
 
 ---
@@ -78,6 +83,7 @@ Git is a version control system used to track changes in code and enable collabo
 - `git branch` → create/list branches  
 - `git switch` → change branch  
 - `git branch -d` → delete branch  
+- `git switch -c` → create and switch to a new branch
 
 ---
 
@@ -91,8 +97,10 @@ Git is a version control system used to track changes in code and enable collabo
 
 ## Merge vs Rebase
 
-- **Merge** → combines histories (keeps full history)  
-- **Rebase** → rewrites history for a cleaner timeline  
+Best practice:
+
+- Merge → preserve full project history
+- Rebase → maintain a cleaner linear history
 
 ---
 

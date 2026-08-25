@@ -1,22 +1,23 @@
 # Terraform Projects
 
-This folder contains practical infrastructure deployments built using Terraform.
+This folder contains practical Infrastructure as Code (IaC) projects built using Terraform.
 
 ---
 
 ## Purpose
 
-Projects in this section demonstrate how infrastructure can be defined, provisioned, and managed using code.
+These projects demonstrate how cloud infrastructure can be provisioned, managed and maintained through reusable, version-controlled Terraform configurations.
 
 ---
 
-## Examples
+## Projects
 
-- AWS EC2 deployment using Terraform
-- Parameterised infrastructure using variables
+### AWS Capstone (Terraform)
+
+A production-inspired Infrastructure as Code project that provisions modular AWS infrastructure including networking, compute, security, load balancing and Auto Scaling.
 
 ---
 
 ## Goal
 
-To build scalable, repeatable infrastructure solutions and demonstrate real-world Infrastructure as Code practices.
+To develop practical Infrastructure as Code skills by building scalable, reusable and automated cloud infrastructure using Terraform.

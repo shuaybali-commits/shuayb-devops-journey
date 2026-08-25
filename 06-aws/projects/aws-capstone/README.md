@@ -6,7 +6,7 @@
 
 ---
 
-## Architecture Diagram
+## Architecture
 
 ![AWS Architecture](architecture/aws-capstone-architecture.png)
 
@@ -69,17 +69,10 @@ The environment was designed using a custom VPC with public and private networki
 
 | Compute | Networking | Security | Storage & Monitoring |
 |---------|------------|----------|----------------------|
+
 | Amazon EC2 | Amazon VPC | Security Groups | Amazon RDS |
 | Auto Scaling | Application Load Balancer | AWS Certificate Manager | Amazon S3 |
 | | Route 53 | IAM | Amazon CloudWatch |
-
----
-
-## Screenshots
-
-### Architecture
-
-![Architecture](architecture/aws-capstone-architecture.png)
 
 ---
 
@@ -141,4 +134,4 @@ This project provides a strong production-inspired foundation and can be extende
 
 This project brought together networking, compute, storage, security and database services into a single AWS environment while reinforcing cloud architecture best practices.
 
-It serves as the capstone project for my AWS module and provides a solid foundation for the next stages of my DevOps journey, including Infrastructure as Code with Terraform, CI/CD automation and Kubernetes.
+This project serves as the capstone for the AWS module and provides the foundation for the Infrastructure as Code, CI/CD and Kubernetes projects that follow in this repository.

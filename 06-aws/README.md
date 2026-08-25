@@ -1,12 +1,12 @@
 # AWS
 
-This module focuses on cloud computing using Amazon Web Services (AWS), covering core services and real-world cloud architecture.
+This module introduces cloud computing using Amazon Web Services (AWS), covering core services and real-world cloud architecture.
 
-It builds on foundational knowledge in networking, Linux, and Docker to deploy and manage applications in the cloud.
+It builds on Linux, Networking and Docker to deploy, manage and secure applications in the cloud.
 
 ---
 
-## Module Structure
+## Directory Structure
 
 This module is organised into three sections to support both learning and practical application:
 
@@ -34,8 +34,9 @@ This module is organised into three sections to support both learning and practi
 
 ## Purpose
 
-AWS is a leading cloud platform used in modern DevOps environments.  
-This module develops the ability to deploy, manage, and secure cloud infrastructure.
+AWS is a leading cloud platform used in modern DevOps environments.
+
+This module develops practical experience deploying, managing and securing cloud infrastructure using AWS services.
 
 ---
 

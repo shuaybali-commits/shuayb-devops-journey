@@ -6,7 +6,7 @@ It builds on Git and development practices to create automated pipelines for mod
 
 ---
 
-## Module Structure
+## Directory Structure
 
 This module is organised into three sections to support both learning and practical application:
 
@@ -41,6 +41,7 @@ This module develops the ability to build pipelines that improve reliability, sp
 
 ## Highlight Work
 
-- Python testing workflow using GitHub Actions  
-- Manual workflow dispatch  
-- Custom GitHub Action built and packaged using `ncc`
+- Automated CI pipeline for building and validating a Flask application
+- Automated CD pipeline publishing Docker images to Docker Hub
+- GitHub Actions workflows using repository secrets
+- Manual workflow dispatch and Python testing workflows

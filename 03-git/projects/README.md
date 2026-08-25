@@ -1,23 +1,26 @@
 # Git Projects
 
-This folder contains projects demonstrating the use of Git in real-world scenarios.
+Git is used throughout every project in this repository rather than in a standalone project.
 
 ---
 
 ## Purpose
 
-Projects in this section showcase practical application of version control, including managing codebases, collaboration workflows, and maintaining project history.
+Version control is an integral part of the entire DevOps learning journey. Every module in this repository demonstrates practical Git usage through commits, branching, version history and collaboration workflows.
 
 ---
 
-## Examples (Planned)
+## Demonstrated Throughout This Repository
 
-- Structured project repositories
-- Branching workflows
-- Collaborative development simulations
+- Repository management
+- Commit history
+- Branching strategies
+- Merging and rebasing
+- Version control best practices
+- GitHub integration
 
 ---
 
 ## Goal
 
-To develop strong version control practices that support scalable and maintainable software development.
+To develop strong version control practices that support collaborative software development and Infrastructure as Code workflows.

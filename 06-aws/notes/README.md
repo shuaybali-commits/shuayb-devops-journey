@@ -1,11 +1,16 @@
 # AWS Basics
 
+## Purpose
+
+These notes provide a quick reference to the core AWS services, cloud concepts and architectural patterns used throughout the DevOps learning journey.
+
 ## Overview
+
 Cloud computing is the delivery of computing resources (servers, storage, networking) over the internet.
 
 ---
 
-## What is AWS
+## Amazon Web Services (AWS)
 
 Amazon Web Services (AWS) is a cloud platform providing on-demand infrastructure and services.
 
@@ -28,8 +33,6 @@ Provides processing power to run applications.
 ## Identity & Access Management (IAM)
 
 Controls access to AWS resources.
-
-### Components
 
 - Root user  
 - Users  
@@ -113,16 +116,12 @@ Controls access to AWS resources.
 
 - Isolated network in AWS  
 
-### Components
-
 - Subnets (public / private)  
 - Internet Gateway (IGW)  
 - Bastion host  
 - Route tables  
 - Security groups (stateful)  
 - NACLs (stateless)  
-
-### Key Concepts
 
 - CIDR → defines IP range  
 - Public vs private IP  
@@ -144,6 +143,7 @@ Controls access to AWS resources.
 - Connect privately to AWS services without internet  
 
 Types:
+
 - Interface endpoints  
 - Gateway endpoints  
 
@@ -154,8 +154,6 @@ Types:
 ### DNS Basics
 
 - Translates domain names to IP addresses  
-
-### Key Components
 
 - Registrar  
 - Name servers  
@@ -234,8 +232,6 @@ Distributes traffic across multiple resources.
 - **GLB** → gateway load balancer  
 - **CLB** → classic (legacy)  
 
-### Benefits
-
 - High availability  
 - Scalability  
 - Fault tolerance  
@@ -245,8 +241,6 @@ Distributes traffic across multiple resources.
 ## Auto Scaling (ASG)
 
 - Automatically adjusts number of instances  
-
-### Components
 
 - Launch templates  
 - Scaling policies  
@@ -272,8 +266,6 @@ Distributes traffic across multiple resources.
 ### AWS Lambda
 
 - Run code without managing servers  
-
-### Benefits
 
 - No infrastructure management  
 - Automatic scaling  

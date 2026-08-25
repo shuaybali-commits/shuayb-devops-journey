@@ -1,22 +1,23 @@
 # CI/CD Projects
 
-This folder contains practical CI/CD implementations and automation projects.
+This folder contains practical CI/CD implementations demonstrating automated testing, container builds and deployment using GitHub Actions.
 
 ---
 
 ## Purpose
 
-Projects in this section demonstrate how CI/CD pipelines are built and used to automate testing and development workflows.
+These projects demonstrate how CI/CD pipelines automate software delivery through validation, containerisation and deployment workflows.
 
 ---
 
-## Projects Included
+## Projects
 
-- **coderco-custom-action**  
-  A custom GitHub Action built using JavaScript and packaged with `ncc`, designed to be reused in workflows.
+### CI/CD Pipeline
+
+A GitHub Actions pipeline that automatically validates a Flask application, builds a Docker image and publishes it to Docker Hub.
 
 ---
 
 ## Goal
 
-To develop the ability to design and implement automated pipelines that improve development efficiency and reliability.
+To develop practical experience designing automated CI/CD pipelines that improve software quality, consistency and deployment efficiency.

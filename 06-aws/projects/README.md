@@ -1,23 +1,23 @@
 # AWS Projects
 
-This folder contains practical projects demonstrating the use of AWS in real-world scenarios.
+This folder contains practical AWS projects demonstrating real-world cloud architecture, infrastructure design and application deployment.
 
 ---
 
 ## Purpose
 
-Projects in this section showcase how cloud services are used to deploy, manage, and scale applications.
+These projects showcase how AWS services are combined to build secure, scalable and highly available cloud environments.
 
 ---
 
-## Examples (Planned)
+## Projects
 
-- EC2-based application deployment
-- Cloud storage solutions using S3
-- Secure infrastructure setup with IAM and VPC
+### AWS Highly Available Web Application
+
+A production-inspired AWS infrastructure project demonstrating networking, compute, security, load balancing, Auto Scaling and managed database services.
 
 ---
 
 ## Goal
 
-To build cloud-native solutions and demonstrate the ability to work with AWS in a DevOps context.
+To develop practical cloud engineering skills by designing, deploying and managing production-style infrastructure on AWS.

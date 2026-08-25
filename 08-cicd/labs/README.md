@@ -4,7 +4,7 @@ This folder contains hands-on exercises focused on building CI/CD pipelines usin
 
 ---
 
-## Contents
+## Included
 
 - Basic workflow configuration
 - Python testing pipelines

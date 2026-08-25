@@ -1,12 +1,12 @@
 # Terraform
 
-This module focuses on Infrastructure as Code (IaC) using Terraform to provision and manage cloud resources.
+This module introduces Infrastructure as Code (IaC) using Terraform to provision, manage and version cloud infrastructure.
 
-It builds on AWS knowledge by enabling automated, repeatable, and scalable infrastructure deployment.
+It builds on the AWS module by enabling automated, repeatable and scalable infrastructure deployments.
 
 ---
 
-## Module Structure
+## Directory Structure
 
 This module is organised into three sections to support both learning and practical application:
 
@@ -34,12 +34,15 @@ This module is organised into three sections to support both learning and practi
 
 ## Purpose
 
-Terraform enables infrastructure to be defined and managed through code.  
-This module develops the ability to automate infrastructure provisioning and maintain consistent environments.
+Terraform is a leading Infrastructure as Code (IaC) tool used throughout modern DevOps.
+
+This module develops practical experience automating infrastructure provisioning and managing cloud resources through code.
 
 ---
 
 ## Highlight Work
 
-- Provisioning AWS EC2 instances using Terraform
-- Managing infrastructure configuration and variables
+- Provisioned AWS infrastructure using Terraform
+- Built reusable Terraform modules
+- Managed variables, outputs and templates
+- Developed a production-style Infrastructure as Code project

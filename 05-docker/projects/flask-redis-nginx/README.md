@@ -1,17 +1,22 @@
 # Flask + Redis + NGINX
 
+## Purpose
+
+Demonstrate how multiple containerised services communicate using Docker Compose while introducing reverse proxying with NGINX and in-memory data storage with Redis.
+
 ## Overview
 
 A multi-service application demonstrating how NGINX, Flask and Redis work together using Docker Compose. NGINX acts as a reverse proxy, Flask serves the application, and Redis provides an in-memory data store.
 
 ---
 
-## Objectives
+## Features
 
-- Build a multi-service application
-- Configure an NGINX reverse proxy
-- Integrate Redis with Flask
-- Apply Docker best practices
+- Multi-service application
+- NGINX reverse proxy
+- Flask web application
+- Redis integration
+- Docker Compose orchestration
 
 ---
 
@@ -82,12 +87,3 @@ Open:
 ```text
 http://localhost:5003
 ```
-
----
-
-## Screenshots
-
-- Homepage
-- Visit Counter
-- Docker Compose
-- Running Containers

@@ -1,82 +1,110 @@
 # AWS Capstone – Terraform
 
-> Production-inspired AWS infrastructure built with reusable Terraform modules.
+> **Production-inspired AWS infrastructure provisioned using Terraform and Infrastructure as Code (IaC).**
 
-![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform)
-![AWS](https://img.shields.io/badge/AWS-eu--west--2-FF9900?logo=amazonaws)
+**Status:** ✅ Completed
 
 ---
 
 ## Overview
 
-This project provisions a highly available AWS environment using Terraform and Infrastructure as Code (IaC).
+This project recreates the AWS Capstone infrastructure using Terraform, demonstrating how Infrastructure as Code (IaC) can be used to provision, manage and version cloud infrastructure.
 
-### Features
+The solution uses reusable Terraform modules to deploy a highly available AWS environment with automated networking, compute, load balancing and Auto Scaling.
+
+---
+
+## Features
 
 - Modular Terraform architecture
-- Custom VPC across 2 Availability Zones
-- Public & Private Subnets
-- Internet & NAT Gateways
+- Custom VPC across two Availability Zones
+- Public and Private Subnets
+- Internet Gateway and NAT Gateway
 - Bastion Host
-- Application Load Balancer
-- Auto Scaling Group
-- Launch Template + User Data
+- Application Load Balancer (ALB)
+- Auto Scaling Group (ASG)
+- Launch Template with User Data
 - Least-Privilege Security Groups
 
 ---
 
 ## Architecture
 
-![Architecture](architecture/aws-capstone-architecture.png)
+![AWS Capstone Terraform Architecture](./architecture/07-architecture-diagram.png)
 
 ---
 
-## Modules
+## Module Structure
 
-| Module | Purpose |
-|---------|---------|
-| Networking | VPC, Subnets, Routing |
-| Security | Security Groups |
-| Compute | Bastion & Launch Template |
-| Load Balancer | ALB, Target Group, Listener |
-| Auto Scaling | Auto Scaling Group |
+| Module        | Purpose                                 |
+| ------------- | --------------------------------------- |
+| Networking    | VPC, Subnets, Route Tables and Gateways |
+| Security      | Security Groups                         |
+| Compute       | Bastion Host and Launch Template        |
+| Load Balancer | ALB, Target Group and Listener          |
+| Auto Scaling  | Auto Scaling Group                      |
 
 ---
 
-## Technologies
+## Technologies Used
 
 - Terraform
 - AWS
-- EC2
-- VPC
-- Auto Scaling
+- Amazon EC2
+- Amazon VPC
 - Application Load Balancer
-- Security Groups
+- Auto Scaling
 - Launch Templates
+- Security Groups
 
 ---
 
-## Screenshots
+## Skills Demonstrated
 
-| Terraform | Infrastructure | Application |
-|-----------|---------------|-------------|
-| ![](screenshots/01-terraform-apply-success.png) | ![](screenshots/04-target-group-healthy.png) | ![](screenshots/05-application-load-balancer.png) |
-
-More screenshots are available in the `/screenshots` directory.
+- Infrastructure as Code (IaC)
+- Modular Terraform design
+- AWS networking
+- Reusable infrastructure modules
+- Variable and output management
+- Launch Templates and User Data
+- High Availability architecture
+- Infrastructure automation
 
 ---
 
 ## Deployment
 
+Initialise Terraform:
+
 ```bash
 terraform init
+```
+
+Preview infrastructure changes:
+
+```bash
 terraform plan
+```
+
+Provision the infrastructure:
+
+```bash
 terraform apply
 ```
 
-Destroy resources when finished:
+Destroy the infrastructure when finished:
 
 ```bash
 terraform destroy
 ```
 
+---
+
+## Future Improvements
+
+- Remote state using Amazon S3 and DynamoDB
+- Automated deployments with GitHub Actions
+- Dockerised application deployment
+- Kubernetes deployment with Amazon EKS
+- Monitoring with Amazon CloudWatch
+- Secrets management using AWS Secrets Manager

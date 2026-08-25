@@ -1,17 +1,21 @@
 # Hello Flask
 
+## Purpose
+
+Demonstrate the fundamentals of containerising a web application using Docker and Docker Compose.
+
 ## Overview
 
 A simple Flask application containerised with Docker to demonstrate the core concepts of building, running and managing containers.
 
 ---
 
-## Objectives
+## Features
 
-- Containerise a Flask application
-- Build and run Docker images
-- Use Docker Compose
-- Apply Docker best practices
+- Single-container Flask application
+- Docker image creation using a Dockerfile
+- Docker Compose orchestration
+- Port mapping between the host and container
 
 ---
 
@@ -72,13 +76,3 @@ Open:
 ```text
 http://localhost:5000
 ```
-
----
-
-## Screenshots
-
-- Homepage
-- Running Container
-- Docker Compose
-- Docker Images
-

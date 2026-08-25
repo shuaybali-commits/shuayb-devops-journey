@@ -1,23 +1,23 @@
 # Linux Projects
 
-This folder contains practical projects and scripts built using Linux tools and commands.
+This folder contains practical Linux projects that apply command-line skills to real-world scenarios.
 
 ---
 
 ## Purpose
 
-Projects in this section demonstrate the application of Linux knowledge in real-world scenarios, including automation, scripting, and system management.
+These projects focus on using Linux to automate tasks, manage systems and solve practical problems beyond basic command-line exercises.
 
 ---
 
-## Examples (Planned)
+## Projects
 
-- Backup scripts
-- Log monitoring tools
-- File automation scripts
+### System Monitor
+
+A lightweight Bash-based system monitoring script that displays key system information, helping demonstrate Linux administration and scripting fundamentals.
 
 ---
 
 ## Goal
 
-To move beyond basic commands and apply Linux skills to solve real problems and automate tasks.
+To build practical Linux experience through small projects that reinforce core system administration and automation concepts.

@@ -4,15 +4,15 @@ This module covers the fundamentals of containerisation using Docker, progressin
 
 ---
 
-## Module Structure
+## Directory Structure
 
-- **Notes**
+- [Notes](./notes)
   Core Docker concepts, commands and best practices.
 
-- **Labs**
+- [Labs](./labs)
   Practical exercises exploring images, containers, networking and volumes.
 
-- **Projects**
+- [Projects](./projects)
   Production-style containerised applications demonstrating progressively more advanced Docker concepts.
 
 ---
@@ -46,5 +46,4 @@ This module covers the fundamentals of containerisation using Docker, progressin
 
 ## Purpose
 
-Develop practical experience building, managing and orchestrating containerised applications using Docker and Docker Compose.
-
+Docker is a fundamental technology in modern DevOps. This module develops practical experience building, managing and deploying containerised applications using Docker and Docker Compose.

@@ -1,12 +1,12 @@
 # Bash
 
-This module focuses on shell scripting and command-line automation using Bash.
+This module builds on Linux fundamentals by introducing shell scripting and command-line automation using Bash.
 
-It builds on Linux fundamentals and introduces scripting techniques used for automation in DevOps workflows.
+Bash is widely used throughout DevOps for automating repetitive tasks, managing systems and improving operational efficiency.
 
 ---
 
-## Module Structure
+## Directory Structure
 
 This module is organised into three sections to support both learning and practical application:
 
@@ -23,7 +23,7 @@ This module is organised into three sections to support both learning and practi
 
 ## Topics Covered
 
-- Variables and data handling
+- Variables and scripting fundamentals
 - Conditional statements and loops
 - File manipulation and processing
 - Argument parsing
@@ -33,4 +33,4 @@ This module is organised into three sections to support both learning and practi
 
 ## Purpose
 
-Bash scripting is essential for automation in DevOps. This module develops the ability to write scripts that streamline tasks and manage systems efficiently.
+Bash scripting is a fundamental DevOps skill. This module develops the ability to automate repetitive tasks, manage systems and build reusable command-line tools.

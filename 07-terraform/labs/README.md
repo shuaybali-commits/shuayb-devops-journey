@@ -4,7 +4,7 @@ This folder contains hands-on exercises using Terraform to provision infrastruct
 
 ---
 
-## Contents
+## Included
 
 - AWS EC2 provisioning
 - Provider configuration

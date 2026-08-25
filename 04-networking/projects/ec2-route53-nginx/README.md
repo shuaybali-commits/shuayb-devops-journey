@@ -4,51 +4,72 @@
 
 This project demonstrates how to host multiple websites on a single AWS EC2 instance using NGINX virtual hosts and Route 53 DNS.
 
-The solution uses:
+The solution combines AWS networking, DNS configuration and Linux server administration to host multiple domains from a single web server.
+
+---
+
+## Technologies
 
 - AWS EC2 (Ubuntu)
-- Route 53 DNS
-- NGINX Web Server
-- Linux CLI
+- Route 53
+- NGINX
+- Linux
+- SSH
 - Security Groups
+
+---
 
 ## Architecture
 
-Internet
-↓
-Route 53
-↓
-EC2 Instance
-↓
-NGINX Virtual Hosts
-├── shuaybali.com
-└── projects.shuaybali.com
+```
+                 Internet
+                     │
+                     ▼
+              Route 53 DNS
+                     │
+                     ▼
+              AWS EC2 Instance
+                     │
+                     ▼
+          NGINX Virtual Hosts
+          ├── shuaybali.com
+          └── projects.shuaybali.com
+```
 
-## What I Built
+---
 
-- Launched an Ubuntu EC2 instance
-- Configured Security Groups for HTTP and SSH
+## Features
+
+- Deployed an Ubuntu EC2 instance on AWS
+- Configured Security Groups for HTTP and SSH access
 - Installed and configured NGINX
-- Created two NGINX server blocks
+- Created multiple NGINX virtual hosts
 - Configured Route 53 DNS records
-- Hosted two websites from a single server
+- Hosted multiple websites from a single server
+
+---
 
 ## Skills Demonstrated
 
 - AWS EC2
 - Route 53
-- DNS Records
+- DNS Configuration
 - Linux Administration
 - SSH
 - NGINX Configuration
 - Virtual Hosts
 - Networking Fundamentals
 
+---
+
 ## Security
 
-- HTTP access allowed from the internet
-- SSH restricted to my public IP address using a /32 CIDR block
+- HTTP (Port 80) exposed to the internet
+- SSH (Port 22) restricted to my public IP address using a `/32` CIDR block
 - NGINX configuration validated before deployment using:
 
 ```bash
 sudo nginx -t
+```
+
+---

@@ -1,6 +1,11 @@
 # Networking Basics
 
+## Purpose
+
+These notes provide a quick reference to the networking concepts and tools used throughout the DevOps learning journey.
+
 ## Overview
+
 Networking is the process of connecting computers and systems to communicate and share data.
 
 ---
@@ -95,8 +100,6 @@ Networking is the process of connecting computers and systems to communicate and
 - **Router** → directs traffic  
 - **Routing table** → determines path  
 
-### Types
-
 - **Static routing** → manually defined  
 - **Dynamic routing** → automatically updated  
 - **Routing protocols** → OSPF, BGP  
@@ -113,8 +116,6 @@ Networking is the process of connecting computers and systems to communicate and
 ## NAT (Network Address Translation)
 
 - Translates private IP addresses to public ones  
-
-### Types
 
 - **Static NAT** → one-to-one mapping  
 - **Dynamic NAT** → pool of IPs  

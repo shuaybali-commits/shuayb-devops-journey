@@ -1,11 +1,16 @@
 # CI/CD Basics
 
+## Purpose
+
+These notes provide a quick reference to the core CI/CD concepts, GitHub Actions workflows and automation practices used throughout the DevOps learning journey.
+
 ## Overview
+
 CI/CD (Continuous Integration / Continuous Deployment) is the practice of automating the building, testing, and deployment of applications.
 
 ---
 
-## CI vs CD
+## Continuous Integration vs Continuous Deployment
 
 - **Continuous Integration (CI)** → automatically build and test code changes  
 - **Continuous Deployment (CD)** → automatically deploy changes to environments  

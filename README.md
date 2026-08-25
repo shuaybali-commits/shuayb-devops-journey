@@ -2,21 +2,37 @@
 
 This repository documents my journey into DevOps through hands-on labs, real-world projects, and structured learning across core technologies.
 
-I’m actively building skills in cloud, infrastructure as code, automation, and CI/CD, with a strong focus on practical implementation.
+I'm building practical experience in Linux, cloud infrastructure, containerisation, Infrastructure as Code (IaC), automation and CI/CD, with a strong focus on real-world implementation.
 
 ---
 
 ## 📚 Technologies Covered
 
-- Linux  
-- Bash  
-- Git  
-- Networking  
-- Docker  
-- AWS  
-- Terraform  
-- CI/CD (GitHub Actions)  
-- Kubernetes  
+- Linux
+- Bash
+- Git
+- Networking
+- Docker
+- AWS
+- Terraform
+- GitHub Actions (CI/CD)
+- Kubernetes
+
+---
+
+## 📈 Learning Progress
+
+| Module     | Status |
+| ---------- | :----: |
+| Linux      |   ✅    |
+| Bash       |   ✅    |
+| Git        |   ✅    |
+| Networking |   ✅    |
+| Docker     |   ✅    |
+| AWS        |   ✅    |
+| Terraform  |   ✅    |
+| CI/CD      |   ✅    |
+| Kubernetes |   ⏳    |
 
 ---
 
@@ -24,9 +40,9 @@ I’m actively building skills in cloud, infrastructure as code, automation, and
 
 Each module is organised into three key areas:
 
-- **notes/** → Core concepts and explanations  
-- **labs/** → Hands-on exercises and practice  
-- **projects/** → Real-world implementations  
+- **notes/** → Core concepts and explanations
+- **labs/** → Hands-on exercises and practice
+- **projects/** → Real-world implementations
 
 ### Modules
 
@@ -44,27 +60,39 @@ Each module is organised into three key areas:
 
 ## 🚀 Highlight Projects
 
+### ☁️ AWS – High Availability Infrastructure
+
+- Designed and deployed a highly available AWS environment
+- Implemented public and private subnets across multiple Availability Zones
+- Configured an Application Load Balancer and Auto Scaling Group
+- Demonstrates scalable cloud infrastructure design
+
+---
+
+### 🏗️ Terraform – AWS Infrastructure as Code
+
+- Recreated the AWS infrastructure using Terraform
+- Built reusable modules for networking, compute, security and load balancing
+- Used variables, outputs and templates to create scalable infrastructure
+- Demonstrates Infrastructure as Code best practices
+
+---
+
+### 🚀 CI/CD – Automated Docker Pipeline
+
+- Built a complete CI/CD pipeline using GitHub Actions
+- Automated application validation and Docker image builds
+- Published Docker images securely to Docker Hub using GitHub Secrets
+- Demonstrates Continuous Integration and Continuous Deployment workflows
+
+---
+
 ### 🐳 Docker – Flask + Redis + NGINX
-- Designed and deployed a multi-container application using Docker Compose  
-- Implemented NGINX as a reverse proxy and load balancer  
-- Integrated Redis for state management (visit counter)  
-- Demonstrated horizontal scaling of application containers  
 
----
-
-### ⚙️ CI/CD – Custom GitHub Action
-- Built a reusable GitHub Action using JavaScript  
-- Packaged using `ncc` for production-ready distribution  
-- Integrated into workflows to automate CI/CD tasks  
-- Demonstrates understanding of workflow automation and extensibility  
-
----
-
-### 🏗️ Terraform – AWS EC2 Infrastructure
-- Provisioned AWS infrastructure using Infrastructure as Code (IaC)  
-- Used Terraform to define and manage EC2 resources  
-- Applied variables and modular structure for scalability  
-- Demonstrates reproducible and automated infrastructure deployment  
+- Designed and deployed a multi-container application using Docker Compose
+- Configured NGINX as a reverse proxy
+- Integrated Redis for state management
+- Demonstrates container networking and service orchestration
 
 ---
 
@@ -72,22 +100,24 @@ Each module is organised into three key areas:
 
 This repository is designed to:
 
-- Build practical, job-ready DevOps skills  
-- Track and document my learning journey  
-- Showcase hands-on experience to employers  
+- Build practical, job-ready DevOps skills
+- Track and document my learning journey
+- Showcase hands-on projects and technical experience
+- Demonstrate continuous improvement through real-world implementations
 
 ---
 
 ## 🔄 Ongoing Work
 
-This repository is continuously evolving as I:
+This repository continues to evolve as I:
 
-- Deepen my knowledge of cloud and DevOps tools  
-- Build more advanced projects  
-- Explore real-world scenarios and best practices  
+- Expand my Kubernetes and container orchestration skills
+- Build more advanced DevOps projects
+- Explore cloud automation and deployment best practices
+- Continue strengthening Infrastructure as Code and CI/CD knowledge
 
 ---
 
 ## 📌 About Me
 
-I’m an AWS Certified Cloud Practitioner currently developing my skills in Cloud and DevOps, with a strong interest in automation, infrastructure, and scalable systems.
+I'm an AWS Certified Cloud Practitioner currently building practical experience across Linux, Docker, AWS, Terraform, CI/CD and Kubernetes, with a strong interest in automation, Infrastructure as Code and cloud engineering.

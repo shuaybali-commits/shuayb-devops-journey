@@ -1,23 +1,23 @@
 # Bash Projects
 
-This folder contains practical Bash scripts and automation projects.
+This folder contains practical Bash scripts that automate repetitive tasks and demonstrate real-world command-line problem solving.
 
 ---
 
 ## Purpose
 
-Projects in this section demonstrate how Bash can be used to automate repetitive tasks and solve real-world problems.
+These projects apply Bash scripting concepts to create reusable automation tools commonly used in Linux and DevOps environments.
 
 ---
 
-## Examples (Planned)
+## Projects
 
-- File organisation scripts
-- Log analysis tools
-- Monitoring scripts
+### Backup Archive Utility
+
+A Bash script that automates the creation of compressed backups, demonstrating scripting fundamentals, file management and command-line automation.
 
 ---
 
 ## Goal
 
-To develop the ability to write efficient, reusable scripts that improve productivity and system management.
+To build practical Bash experience by developing reusable scripts that simplify system administration and everyday tasks.

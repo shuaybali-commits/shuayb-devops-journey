@@ -6,7 +6,7 @@ Git is a fundamental tool in modern software development and DevOps workflows.
 
 ---
 
-## Module Structure
+## Directory Structure
 
 This module is organised into three sections to support both learning and practical application:
 
@@ -24,10 +24,12 @@ This module is organised into three sections to support both learning and practi
 ## Topics Covered
 
 - Repository setup and configuration
-- Staging, committing, and pushing changes
-- Branching and merging
-- Resolving conflicts
+- Staging, committing and pushing changes
+- Branching strategies
+- Merging and rebasing
+- Resolving merge conflicts
 - Working with remote repositories (GitHub)
+- Stashing, resetting and reverting changes
 
 ---
 

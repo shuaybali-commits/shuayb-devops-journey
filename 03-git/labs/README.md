@@ -4,7 +4,7 @@ This folder contains hands-on exercises focused on using Git in real scenarios.
 
 ---
 
-## Contents
+## Included
 
 - Repository setup and management
 - Branching and merging exercises

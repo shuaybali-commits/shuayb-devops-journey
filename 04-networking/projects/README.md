@@ -1,23 +1,23 @@
 # Networking Projects
 
-This folder contains practical implementations demonstrating networking concepts.
+This folder contains practical networking projects that apply core networking concepts to real-world infrastructure.
 
 ---
 
 ## Purpose
 
-Projects in this section showcase how networking is applied in real-world scenarios, including web hosting, routing, and service communication.
+These projects demonstrate how networking is used to deploy services, manage traffic and enable communication between systems in cloud environments.
 
 ---
 
-## Examples (Planned)
+## Projects
 
-- NGINX reverse proxy setup
-- Basic web server deployment
-- Networking configurations in container environments
+### EC2 + Route 53 + NGINX
+
+A practical networking project that deploys a website on AWS using an EC2 instance, Route 53 DNS and NGINX, demonstrating web hosting, DNS configuration and basic cloud networking.
 
 ---
 
 ## Goal
 
-To develop the ability to design and troubleshoot networked systems in modern application environments.
+To develop practical networking skills through projects that simulate real-world infrastructure and service deployment.

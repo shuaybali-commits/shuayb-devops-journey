@@ -1,17 +1,17 @@
 # Linux
 
-This module covers the fundamentals of Linux, focusing on command-line usage, file systems, permissions, and system navigation.
+This module introduces the fundamentals of Linux, covering command-line usage, file systems, permissions and system navigation.
 
-It forms the foundation for many DevOps tools and workflows.
+Linux forms the foundation of modern DevOps and cloud engineering, making it an essential skill for automation, infrastructure management and server administration.
 
 ---
 
-## Module Structure
+## Directory Structure
 
 This module is organised into three sections to support both learning and practical application:
 
 - [Notes](./notes)  
-  Key concepts, summaries, and explanations gathered while learning Linux.
+  Key concepts, summaries and explanations gathered while learning Linux.
 
 - [Labs](./labs)  
   Hands-on exercises including OverTheWire Bandit and Sad Servers challenges.
@@ -23,15 +23,15 @@ This module is organised into three sections to support both learning and practi
 
 ## Topics Covered
 
-- File system navigation
+- Linux file system navigation
 - File permissions and ownership
+- Shell commands and text processing
 - SSH and remote access
-- Text processing and command-line tools
-- Networking basics (nc, openssl)
 - Compression and archiving
+- Basic networking tools (`nc`, `openssl`)
 
 ---
 
 ## Purpose
 
-Linux is a core skill in DevOps. This module builds the foundation required to work with servers, automation tools, and cloud environments.
+Linux is a fundamental skill for DevOps engineers. This module provides the knowledge required to work confidently with servers, automation tools, containers and cloud platforms.

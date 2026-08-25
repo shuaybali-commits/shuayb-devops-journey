@@ -4,7 +4,7 @@ This folder contains hands-on Bash challenges and exercises.
 
 ---
 
-## Contents
+## Included
 
 - Command-line challenges
 - Scripting exercises

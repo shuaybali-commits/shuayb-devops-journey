@@ -1,6 +1,11 @@
 # Bash Scripting Basics
 
+## Purpose
+
+These notes provide a quick reference to the Bash scripting concepts and syntax used throughout the DevOps learning journey.
+
 ## Overview
+
 Bash is a scripting language used to automate tasks in Linux environments.
 
 ---
@@ -53,10 +58,12 @@ Example structure:
 - `-ge` → greater or equal  
 
 Logical:
-- `&&` → AND  
+
+- `&&` → AND
 - `||` → OR  
 
 String:
+
 - `==` → equal  
 - `!=` → not equal  
 
@@ -68,7 +75,8 @@ String:
 - Parameters allow input into functions  
 
 Example:
-- function takes `$1` as first argument  
+
+- function takes `$1` as first argument
 
 ---
 

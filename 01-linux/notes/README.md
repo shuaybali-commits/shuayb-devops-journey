@@ -1,6 +1,11 @@
 # Linux Basics
 
+## Purpose
+
+These notes provide a quick reference to the Linux commands and concepts used throughout the DevOps learning journey.
+
 ## Overview
+
 Linux is a command-line based operating system used widely in servers and DevOps environments.
 
 ---
