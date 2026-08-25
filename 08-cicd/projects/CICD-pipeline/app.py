@@ -15,8 +15,8 @@ def home():
         <title>Hello Flask</title>
     </head>
     <body>
-        <h1>🐳 Hello Flask</h1>
-        <p>This Flask application is running inside a Docker container.</p>
+        <h1>🚀 CI/CD Pipeline</h1>
+        <p>This Flask application is automatically built and deployed using GitHub Actions and Docker Hub.</p>
 
         <h2>Runtime Information</h2>
         <ul>
