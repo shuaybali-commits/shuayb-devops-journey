@@ -1,0 +1,35 @@
+name: CI Pipeline
+
+on:
+  push:
+    paths:
+      - "08-cicd/projects/CICD-pipeline/**"
+  pull_request:
+    paths:
+      - "08-cicd/projects/CICD-pipeline/**"
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: 08-cicd/projects/CICD-pipeline
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check Python Syntax
+        run: python -m py_compile app.py
+
+      - name: Build Docker Image
+        run: docker build -t cicd-pipeline:test .

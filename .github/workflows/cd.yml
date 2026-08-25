@@ -1,0 +1,33 @@
+name: CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "08-cicd/projects/CICD-pipeline/**"
+
+jobs:
+  docker-publish:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: 08-cicd/projects/CICD-pipeline
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build Docker Image
+        run: docker build -t shuaybali/cicd-pipeline:latest .
+
+      - name: Push Docker Image
+        run: docker push shuaybali/cicd-pipeline:latest
+        
